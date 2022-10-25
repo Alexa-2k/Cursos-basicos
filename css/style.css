@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,100italic,300italic);
+
+
+html {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+.fp-video, .ft-art, .menu-item {
+	display: inline-block;
+}
+h1,h2,h3,h4,h5,figure,ul {
+	margin: 0;
+}
+h1{
+	font-size: 2em;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	color: #0BC5D8;
+}
+a:hover{
+	color: #EA6E39;
+}
+a:visited{
+	color: #AAAAAA;
+}
+a:active{
+	color: #FF0000;
+}
+/* Ancho de la página */
+
+.contenedor{
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+/* logo */
+
+.logo{
+	margin: 25px;
+	text-align: center;
+
+}
+
+/* Posición y estilos del menú de navegación */
+
+nav{
+	background-color: #2E353E;
+	text-align: center;
+}
+
+.menu-item{
+	text-transform: uppercase;
+}
+.menu-item a div{
+	padding: 20px;
+}
+.menu-item a{
+	text-decoration: none;
+	color: #fff;
+}
+.menu-item :hover{
+	background-color: #0BC5D8;
+}
+
+/* Estilos de la sección "featured" */
+
+.featured{
+	background-color: #F2F2F2;
+}
+
+.fp-video{
+	width: 55%;
+	padding: 2em;
+}
+
+.ft-art{
+	width: 30%;
+	padding: 2em;
+	vertical-align: top;
+}
+
+/* Estilo para los botones */
+
+
+.boton-container{
+	text-align: center;
+	background-color: #EA6E39;
+	margin: 0 auto;
+}
+.boton-container a{
+	text-decoration: none;
+	color: #fff;
+}
+.boton-container :hover{
+	background-color: #1FBEA4;
+}
+.boton{
+	padding: 15px;
+}
+
+/* Estilo para los artículos */
+
+article{
+	padding: 30px;
+	background-color: #F2F2F2;
+	margin: 20px 0;
+}
+.art-image{
+	display: inline-block;
+	width: 210px;
+	margin-right: 10px;
+}
+.art-cont{
+	display: inline-block;
+	width: 740px;
+	vertical-align: top;
+}
+
+figcaption{
+	background-color: #1FBEA4;
+	color: #fff;
+	text-align: center;
+	padding: 5px;
+}
+article h1{
+	border-bottom: solid thin black;
+}
+
+/* Estilos para el Footer */
+
+footer{
+	background-color: #2E353E;
+	color: #fff;
+	clear: both;
+	line-height: 30px;
+	text-align: center;
+	padding: 45px;
+}

@@ -1,0 +1,83 @@
+/* Estilos para Smartphones */
+
+@media all and (max-width: 767px){
+
+	.contenedor{
+		width: 100%;
+	}
+	.menu-item{
+		display: initial;
+	}
+
+	.menu-item a div{
+		border-bottom: solid thin white;
+	}
+
+	nav ul{
+		padding: 0;
+	}
+	.featured{
+		padding: 0 10px;
+	}
+.fp-video{
+	display: initial;
+	width: 100%;
+	padding: 0;
+	}
+.ft-art{
+	display: initial;
+	width: 100%;
+	vertical-align: initial;
+	padding: 0 30px;
+	margin: 10px 0;
+	}
+.art-image, .art-cont{
+	display: initial;
+	width: 100%;
+	text-align: center;
+	}
+footer{
+	
+}
+}
+
+/* Estilos para Tablet Portrait */
+
+@media all and (min-width: 768px) and (max-width: 1023px){
+
+	.art-image{
+		width: 240px;
+	}
+	.art-cont{
+		width: 430px;
+	}
+
+	.fp-video{
+		float: right;
+		width: 53%;
+		padding: 1em;
+	}
+
+	.ft-art{
+		width: 38%;
+		font-size: 0.9em;
+		margin: 0;
+		padding: 10px 10px;
+	}
+
+	.ft-art h1{
+		font-size: 2em;
+	}
+}
+
+/* Estilos para Tablet Landscape */
+
+@media all and (min-width: 1024px) and (max-width: 1385px){
+
+	.art-image{
+		width: 210px;
+	}
+	.art-cont{
+		width: 700px;
+	}
+}
